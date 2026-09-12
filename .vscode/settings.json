@@ -4,5 +4,20 @@
     "source.organizeImports": "explicit",
     "source.sortMembers": "explicit"
   },
-  "css.lint.unknownAtRules": "ignore"
+  "css.lint.unknownAtRules": "ignore",
+  "js/ts.suggest.enabled": true,
+  "javascript.suggest.enabled": true,
+  "typescript.suggest.enabled": true,
+  "js/ts.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "js/ts.preferences.includePackageJsonAutoImports": "on",
+  "editor.tabCompletion": "on",
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "editor.inlineSuggest.enabled": true
 }
