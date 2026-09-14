@@ -1,4 +1,5 @@
 import type { ImageSourcePropType } from "react-native";
+import type { ListHeadingTitle } from "@/constants/listheading";
 
 declare global {
   interface AppTab {
@@ -50,9 +51,8 @@ declare global {
   > {}
 
   interface ListHeadingProps {
-    title: string;
+    title: ListHeadingTitle;
   }
 }
 
 export { };
-
